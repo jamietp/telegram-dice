@@ -14,10 +14,10 @@ body {
 
 /* Style for the dice image */
 #dice {
-    width: 70vw;     /* Set the width relative to viewport width */
-    height: 70vw;    /* Set the height relative to viewport width to maintain a square shape */
-    max-width: 600px; /* Set a max width for smaller devices */
-    max-height: 600px; /* Set a max height for smaller devices */
+    width: 60vw;     /* Set the width relative to viewport width */
+    height: 60vw;    /* Set the height relative to viewport width to maintain a square shape */
+    max-width: 500px; /* Set a max width for smaller devices */
+    max-height: 500px; /* Set a max height for smaller devices */
     border: 5px solid #000;   /* Add a black border to resemble dice edges */
     border-radius: 10px;      /* Slight rounding for a more realistic dice effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
