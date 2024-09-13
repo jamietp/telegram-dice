@@ -16,10 +16,10 @@ function rollDice() {
 
         counter++;
         // Stop the rolling animation after a few iterations
-        if (counter > 10) {
+        if (counter > 5) {
             clearInterval(interval);
         }
-    }, 300);  // Change image every 200ms to simulate rolling
+    }, 300);  // Change image every 300ms to simulate rolling
 }
 
 // Add event listener to the dice for rolling on tap/click
@@ -28,4 +28,3 @@ document.getElementById('dice').addEventListener('click', rollDice);
 
 // Initialize Telegram WebApp
 Telegram.WebApp.ready();
-
