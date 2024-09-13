@@ -16,8 +16,8 @@ body {
 #dice {
     width: 20vw;     /* Set the width relative to viewport width */
     height: 20vw;    /* Set the height relative to viewport width to maintain a square shape */
-    max-width: 200px; /* Set a max width for smaller devices */
-    max-height: 200px; /* Set a max height for smaller devices */
+    max-width: 400px; /* Set a max width for smaller devices */
+    max-height: 400px; /* Set a max height for smaller devices */
     border: 5px solid #000;   /* Add a black border to resemble dice edges */
     border-radius: 10px;      /* Slight rounding for a more realistic dice effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
