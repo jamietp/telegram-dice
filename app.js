@@ -19,7 +19,7 @@ function rollDice() {
         if (counter > 10) {
             clearInterval(interval);
         }
-    }, 200);  // Change image every 200ms to simulate rolling
+    }, 300);  // Change image every 200ms to simulate rolling
 }
 
 // Add event listener to the dice for rolling on tap/click
